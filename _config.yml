@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Nihar Chaithanya - bLoG
+email:       niharchaithanya@gmail.com
+author:      Nihar Chaithanya
+description: "My blog about Linux engineering"
 baseurl:     ""
-url:         "https://pixyll.com"
+url:         "https://niharcy.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
@@ -47,7 +47,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: niharcy
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
@@ -55,7 +55,7 @@ twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: nihar-chaithanya-b8229a198
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -65,12 +65,12 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: false
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -115,7 +115,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     2
 sass:
   style: compressed
 plugins:
